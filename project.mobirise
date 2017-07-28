@@ -1,0 +1,1176 @@
+{
+  "settings": {
+    "name": "EDUCATIONAL TECHNOLOGY APP",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12",
+    "uniqCompNum": 47,
+    "versionPublish": "3.12",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EDUTECH APP</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Meaning of Educational.html\" aria-expanded=\"false\">Meaning of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Approaches to Educational Technology.html\" aria-expanded=\"false\">Approaches to Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Importance of Educational Technology.html\" aria-expanded=\"false\">Importance of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Tutorial.html\" aria-expanded=\"false\">Tutorial</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-3",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "<br><br><br><br><br><br><br>Fundamentals of Educational Technology<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-4",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1401786182066-265x313.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "+2348068316276",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "1 Olusanjo Street, Holiness Estate Ejigbo. Osun State",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "sanjo_mike@yahoo.com",
+          "title1": "Categories",
+          "text5": "<p>Higher Education</p><p>General Education</p>",
+          "text6": "<strong>Contacts</strong><br>Email: sanjo_mike@yahoo.com&nbsp;<br>Phone: +2348068316276<br><br><br><br><strong>Address</strong><br>1 Olusanjo Street, Holiness Estate Ejigbo. Osun State<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "sanjo_mike@yahoo.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-5",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Olusanjo"
+        }
+      ]
+    },
+    "Tutorial.html": {
+      "settings": {
+        "title": "Web Site Creator Title",
+        "meta_descr": "Web Site Creator Description",
+        "order": 6
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-k",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EDUTECH APP</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Meaning of Educational.html\" aria-expanded=\"false\">Meaning of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Approaches to Educational Technology.html\" aria-expanded=\"false\">Approaches to Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Importance of Educational Technology.html\" aria-expanded=\"false\">Importance of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Tutorial.html\" aria-expanded=\"false\">Tutorial</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-m",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Olusanjo"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "14px"
+            }
+          },
+          "_anchor": "content1-1a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few </p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><b>Revision Questions</b></p><p><br></p><p>1(a)\tExplain the term Educational Technology</p><p>&nbsp; (b)\tIdentify and discuss four approaches to Educational Technology.</p><p>2.\tHow relevant do you consider educational technology in teacher education programme?</p><p>3.\tAssess the importance of educational technology in teaching-learning processes.</p><p>4.\tIdentify and discuss five definitions of educational technology</p><p>5.\tHow would you differentiate between technology in education and technology of Education?</p><p>6.\tDiscuss briefly five major components of communication process.</p><p>7.\tIdentify and discuss, the two models of communication that are commonly used in educational technology.</p><p>8.\tWhat are the nature of communication?</p><p>9.\tWhat is instructional communication process?</p><p>10.\tWrite out the causes of communication breakdown in the classroom.</p><p>11.\tExplain the word “system”</p><p>12.\tIdentify and explain the six-step process of systems approach.</p><p>13.\tWhat is systems approach to instruction?</p><p>14.\tExplain the term learning system</p><p>15.\tIdentify the major components of learning system</p><p>16.\tHighlight the importance of systems approach.</p><p>17.\tExplain the term multi-media</p><p>18.\tIdentify five classifications of educational media.</p><p>19.\tHow would you explain the term “Educational Media”?</p><p>20.\tWhy would you recommend the use of educational media?</p><p>21.\tHighlight the techniques in the use of educational media.</p><p>22.\tBriefly distinguish between educational technology and instructional technology.</p><p>23.\tMention five examples of audio, visual and audio-visual media.</p><p>24.\tWhat is Technology?</p><p>25.\tWhat do you understand by the term system and how does it apply to education?</p><p>26.\tIdentify different definition of educational technology and describe briefly each of them.</p><p>27.\tWhat are the factors to be considered when choosing an educational material?</p><p>28.\tHow can we improve communication process in the classroom.</p><p>29.\tWhat is computer-assisted learning?</p><p>30.\tState the advantages of educational media</p><p>31.\tIdentify the functions of CAI</p><p>32.\tWhat are characteristics of CAI</p><p>33.\tAsses the possibility of using CAI in our educational system.</p><p>34.\tIdentify and explain basic elements</p><p>35.\tWhat are the general guidelines you would follow in producing instructional material?</p><p>36.\tThere are 3 types of media production, identify and discuss briefly each of them.</p><p>37.\tWhat is improvisation?</p><p>38.\tWhat are the guidelines for improvisation?</p><p>39.\tSelect one instructional material, and describe how it could be improvised.</p><p>40.\tChoose a projector you are familiar with, and describe how to operate it.</p><p>41.\tWhat are community resources?</p><p>42.\tIdentify and explain the pros and cons of resource person in teaching and learning.</p><p>43(a)\tGive resource places in your locality</p><p>&nbsp; &nbsp;(b)  Explain how you would organize field-trip</p><p>44.\tAssess the merits and demerits of visiting resource places.</p><p>45.\tExplain the term enter-educate approach</p><p>46.\tMention 5 educational media that could be used to teach population/family life education.</p><p>47.\tGive appropriate instructional methods for teaching population/family life education.</p><p>48.\tWhat is full meaning of ICT?</p><p>49.\tIdentify the place of ICT in education</p><p>50.\tWhat are ICT tools?</p><p>51.\tDefine ICT.</p><p><br></p><p><br></p>"
+        }
+      ]
+    },
+    "Meaning of Educational.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-r",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EDUTECH APP</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Meaning of Educational.html\" aria-expanded=\"false\">Meaning of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Approaches to Educational Technology.html\" aria-expanded=\"false\">Approaches to Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Importance of Educational Technology.html\" aria-expanded=\"false\">Importance of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Tutorial.html\" aria-expanded=\"false\">Tutorial</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-u",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Olusanjo"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "16px"
+            },
+            ".lead P": {
+              "color": "#ffffff",
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Meaning and Evolution of <br><span style=\"line-height: 1.1;\">Educational Technology</span><br><div><br></div>",
+          "text": "<p>Introduction</p><p>Many attempts have been made to define educational technology but with little success.  This is because the term educational technology is relatively new to some; it is synonymous with audio visual aids. To other, educational technology could be referred to as tool technology, yet others call it system technology. The reasons that can be adduced for the misunderstanding are:&nbsp;</p><p>i.\tThe different concepts that different people hold of education and</p><p>ii.\tThe different concepts that people hold of technology.  In view of the above reasons, for the meaning of educational technology to be really understood, the meaning of education and technology should be examined in the first instance.</p><p>Meaning of Education</p><p>&nbsp;There are many definitions of educational by different authors, associations and individuals, for the purpose of this&nbsp;</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">discourse, education will be taken to mean all the experiences that an individual is exposed to which brings about positive improvement on his skills, attitudes and knowledge and which leads to the improvement of the environment in which he lives (Salawu, Taiwo&amp;Aremu, 1994).</span><br></p><p><b>Meaning of Technology</b></p><p>&nbsp;The word technology has been used to refer to all kinds of concepts so much that it has become necessary for two people using the word to agree on what meaning they are going to adopt at any time if they should understand each other.</p><p>&nbsp;Technology by some is seen as technical gadgets and endless series of buttons that perform wonders once the correct combination or sequences are pressed (Dopemu, 1993).</p><p>&nbsp;In field of education, the meaning of technology has been narrowed down to refer to mechanical tools, recorders of all kinds, television, gadgets and computers. An acceptable definition of technology is the systematic application of scientific knowledge to achieve a particular practical purpose.</p><p>The fact that the definitions of education and technology have generated their own literature suggest that educational technology should be varied and wide as education and technology.</p><p>In the remaining part of this section, the meaning of educational technology as given by different scholars,<span style=\"font-size: 1.07rem; line-height: 1.5;\">authors and associations will be examined.</span></p><p>The term educational technology was first defined in Nigeria in 1967 by the British National Council for Educational Technology as “the development, application and evaluation of systems, techniques and aids on the field of human learning”.  The council further described “technology” as the science of the application of knowledge for practical purposes and hence educational technology would seem to compose the process of applying available knowledge in a systematic way to problems in education and learning.</p><p>The Association for Programmed Learning and Educational Technology (APLET) 1972 described educational technology as the technique of mitigating problems of learning organization, control and logistic by logical analysis and programme construction.</p><p>According to Association for Educational Communication and Technology AECT (1972) of United State of America educational technology is defined as “a complex, integrated process involving people, procedures, ideas, devices and organization for analyzing problems and devising, implementing, evaluating and managing solution to those problems involved in all aspects of human learning”.&nbsp;</p><p>Ogunmilade (1984) asserted that educational technology is systematic approach to utilization of resources and purposive or planned training.  Rowntree (1986) in his own opinion says that educational technology is a rational&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">problem solving approach to education, a way of thinking skeptically and systematically about learning and teaching. While, in the view of Tickton (1970), educational technology is a systematic learning in terms of specific objectives based on research in human and non-human resources to bring about more effective instruction.</span></p><p>Grayson (1972) defines educational technology as a system approach to instruction incorporating specific measurable instructional objectives, diagnostic testing, criteria for students’ performance and the repeated redesign of the curriculum materials until the criteria are achieved.</p><p>Woolman (1971) defined educational technology as a purposeful utilization in combination or separately of objects to increase the effectiveness of the educational process.  In the views of Balogun and Abimbade (2001), educational technology is the facilitation of human learning and communication through broad range of resources.  They further asserted that the meaning of technology is relevant to educational technology as technology is the systematic application of scientific and other organized knowledge to practical skills.  According to Balogun and Abimbade, educational technology is made up of a number of other technologies:  These include&nbsp;</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">a.\tthe concepts of audio-visual and media technology.</span></p><p>b.\tinformation and communication data technology.</p><p>c.\teducational processing and telecommunication.</p><p>d.\tsystems theory/technology theory.</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">e.\tapplication of instructional theory.</span><br></p><p>&nbsp;Educational technology according to Dopemu (1993) can be defined using two approaches:</p><p>1.\tThe hardware/product approach:  This approach to the definition of educational technology (also known as technology in education) is concerned mainly with what equipment are available for use in aid of instruction. That is, the emphasis is on equipment and materials that can be used to process information.</p><p>2.\tThe software/process approach:  This is also known as technology of education. This approach has its origin from the contribution of behavioural/social science unlike the product approach which originated from contribution of the physical science.</p><p>&nbsp; The main concern of this approach is how people learn things like motivation, perception, interest, reinforcement and how people learn under different situations and the best to present learning aids to the learners.</p><p>&nbsp; The diagram below fully depict definition of educational technology under two heads as technology in education and technology of education.</p><p><br></p><p><br></p><p><br></p><p><br></p><p>.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        }
+      ]
+    },
+    "Approaches to Educational Technology.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-v",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EDUTECH APP</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Meaning of Educational.html\" aria-expanded=\"false\">Meaning of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Approaches to Educational Technology.html\" aria-expanded=\"false\">Approaches to Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Importance of Educational Technology.html\" aria-expanded=\"false\">Importance of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Tutorial.html\" aria-expanded=\"false\">Tutorial</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-w",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Olusanjo"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px"
+            },
+            ".lead P": {
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-12",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Approaches to Educational Technology",
+          "text": "<p>1.\tThe Software approach</p><p>2.\tThe Hardware approach</p><p>3.\tSystems approach or the problem solving approach</p><p>4.\tBehavioural Science approach</p><p>&nbsp;<b>The Software Approach</b></p><p>&nbsp;This approach deals with the application of behavioural sciences.  In this approach, the emphasis is on the importance of aids to teaching and is based on the application of the behavioural science to the problems of education. This approach involves;</p><p>1.\tThe identification of appropriate aims, goals and objectives.</p><p>2.\tThe selection of relevant and suitable subject matter.</p><p>3.\tThe choosing of effective and contrasting learning and teaching strategies, methodologies, activities and experiences.</p><p>4.\tThe evaluation of the success of the resulting learning outcomes and the effectiveness of the vary strategies employed.</p><p>&nbsp; This approach also describes educational technology as a system of task analysis, behaviour classification and learning exercise design, based on tested principles of learning and behaviour.</p><p><b>The Hardware Approach</b></p><p>&nbsp; This approach is also regarded as high technology. The emphasis is on the use of equipment and materials. Hardware approach is also the application of physical science and engineering to the problems of education. The equipment and materials used for teaching here were not originally meant for educational purposes but were adopted and adapted for educational purposes.</p><p>&nbsp; At the low technology end of the spectrum, we have the chalkboards, wall charts, simple models and real objects.  At the intermediate level, we have technological products such as overhead projectors, slide and film projectors, simple teaching machine and other presentation hardware essentially under the control of the teacher.  At high technology end we have radio, television, complex teaching or simulation devices, computer assisted instruction and dial-access information systems.</p><p><b>The Systems Approach/Problem-Solving Approach</b></p><p>&nbsp; This approach deals with the application of system analysis to education.  This approach lays emphasis on the process and products of teaching and learning.  Here educational technology is seen as systematically managing instructional media, ideas, physical facilities and others in order to solve various educational problems.  Educational technology therefore includes strategies, activities and all educational processes.</p><p>&nbsp;<b>The Behavioural Science Approach</b></p><p><b>&nbsp;</b> This approach deals with the application of the knowledge of philosophy of education, sociology of education and psychology of education to solve teaching and learning problems.</p><p>&nbsp; These different approaches to educational technology should not be seen as the different views about educational technology but should be seen as the different stages in the evolution of educational technology.</p><p>&nbsp;Educational technology can also be interpreted to mean</p><p>1.\tThe systematic analysis of a learning situation</p><p>2.\tThe selection of objectives</p><p>3.\tThe selection of technologies and media to produce the agreed objectives.</p><p>4.\tThe construction of criteria to evaluate the results.</p><p>&nbsp; Four distinct although interrelated areas of activity as a broader concept of educational technology have also been itemized as:</p><p>-\tthe preparation and use of educational materials</p><p>-\tthe application of knowledge about teaching and learning</p><p>-\tthe planning, development and application of curricular</p><p>-\tthe organization of personnel, resources and teaching activities.</p><p>&nbsp;Educational technology also covers work in the fields of the psychology of learning, educational planning and organization, curriculum development and course design, the production of teaching and learning materials, the storage, retrieval and dissemination of information, the allocation of resources, the costs and effectiveness of media in education, the design of learning spaces and problems of innovation.</p><p>.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        }
+      ]
+    },
+    "Importance of Educational Technology.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 5
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-x",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EDUTECH APP</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Meaning of Educational.html\" aria-expanded=\"false\">Meaning of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Approaches to Educational Technology.html\" aria-expanded=\"false\">Approaches to Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Importance of Educational Technology.html\" aria-expanded=\"false\">Importance of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Tutorial.html\" aria-expanded=\"false\">Tutorial</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-y",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Olusanjo"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "SMALL": {
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-z",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Title wit",
+          "meta": "<br><br><br>ROLES OF EDUCATIONAL TECHNOLOGY IN THE TEACHING AND LEARNING PROCESSES<br><br>Since Educational Technology relies on a broad definition of the word “technology”.  It is necessary therefore to look into the role of technology in education before examine the role of educational technology in the teaching and learning process.<br>\tIn Educational technology, technology is used to solve educational problems. The problem comes first, technology follows as a possible solution to the problems.  Let us examine some educational problems and how technology has been used or can be used to solve them.<br>\tFor instance, in the case/problem of increased enrollments, technology as been used to solve this problem with use of television broadcast and closed-circuit television.  In terms of administrative functions, computers have been found useful in keeping records, taking attendances, scoring, etc.  Technology may also be used to solve the problem of individual differences of learning during teaching and learning processes.  This can be achieved making instruction available in various formats for students thereby enable students to learn at their own rate and make learning individual.<br><br><br>Roles of Educational Technology in Teaching and Learning Process<br>\tEducational technology principles when properly integrated into the teaching-learning situation in the classroom will:<br>-\tSupply a concrete basis for conceptual thinking and hence reduce meaningless responses of students.<br>-\tProvide a high degree of interest for students.  That is, if educational technology is correctly applied in the school system, it will arouse a new interest among the student, possibly, influence, if not changed attitudes towards both the teacher and his subject and even the teacher’s work will definitely be more interesting.<br>-\tSupply the necessary basis for developmental learning and hence make learning more permanent.<br>-\tBridge the gap between the school and the outside world e.g. Television and Radio can bring immediacy to classroom.<br>-\tGive instruction more scientific base<br>-\tProvide opportunities for democratizing education. That is, providing opportunity for equal access to education.<br>-\tProvide opportunity for total learning.<br>-\tMake education more productive<br>-\tMake education more individual<br>-\tCommunicate instructional content to students in much better way. <br>Other areas where educational technology has been found necessary in teaching and learning processes according to Salawu, Taiwo and Aremu (1994) are as stated below:<br>\tIt helps to store information and to make them easily accessible through Books, Radio, Television, Video-Cassettes, Audio tapes etc<br>\tIt helps to develop an awareness of problems, open up possibilities for exploration, present meaningful preliminary information, open up awareness to new activity and systematically provide solutions.<br>\tIt helps the child to focus his entire attention during teaching/learning process.  This is because he cannot successfully look at a motion picture, examine an object, operate a working model or use a computer and think about something else, at the same time.<br>\tIt helps to overcome physical limitations of presenting subject matter.<br>\tIt provides the teacher with a kit of tools to carry out diagnostic, research, and remedial work demanded by up-to-date instructional purposes.<br>\tIt provides the teacher with the means of guiding and controlling the desirable responses of the learner in relation to stimulus materials of the learning situation.<br>\tIt can be used to communicate directly and effectively with learners who have minimal reading skills:  Concepts that may be inaccessible to a student through reading may be conveyed to the learner by the combination of words and pictures.<br>\tIt can be used to teach or evaluate analytical skills and abilities in learner through the film.<br>Having examined the role of educational technology in teaching and learning processes, why do prospective teachers need to study this course. The answers to this question will be provided in the preceding paragraphs.<br>\tEducational technology also known as learning technology (wikipedia 2008) as a course of study in teacher education programme according to Ogunlade (2005) include the following:<br>1.\tStudy of educational technology by prospective teachers will equip them proper way of handling classroom situation.<br>2.\tThe study of educational technology will enable teacher in training to have knowledge of how to find solution to all aspects of human learning.<br>3.\tEducational technology will enable student-teachers to identify problems, finding solution to problem and evaluate the solution to the problem.<br>4.\tStudents of education need to study educational technology in other to have experience needed to meet challenges of present day instructional needs for all those engaged in teaching in an organization.<br>5.\tThe study of educational technology will enable teachers in training to know the principles and procedures in the filed that are necessary for growth in learning.<br>6.\tEducational technology will equip student-teachers knowledge and skills that are necessary in improvising materials for teaching and learning.<br>7.\tThe study of educational technology will enable the student-teachers to know educational materials, their uses, strengths and weaknesses.<br>8.\tEducational technology will develop in student-teachers how to operate equipment for teaching and learning processes.<br><br><br>"
+        }
+      ]
+    },
+    "Home.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "14px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-15",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EDUTECH APP</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Home.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Meaning of Educational.html\" aria-expanded=\"false\">Meaning of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Approaches to Educational Technology.html\" aria-expanded=\"false\">Approaches to Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Importance of Educational Technology.html\" aria-expanded=\"false\">Importance of Educational Technology</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Tutorial.html\" aria-expanded=\"false\">Tutorial</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-16",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "<br><br><br><br><br><br><br>Fundamentals of Educational Technology<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-17",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/1401786182066-265x313.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "+2348068316276",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "1 Olusanjo Street, Holiness Estate Ejigbo. Osun State",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "sanjo_mike@yahoo.com",
+          "title1": "Categories",
+          "text5": "<p>Higher Education</p><p>General Education</p>",
+          "text6": "<strong>Contacts</strong><br>Email: sanjo_mike@yahoo.com&nbsp;<br>Phone: +2348068316276<br><br><br><br><strong>Address</strong><br>1 Olusanjo Street, Holiness Estate Ejigbo. Osun State<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "sanjo_mike@yahoo.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-18",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Olusanjo"
+        }
+      ]
+    }
+  }
+}
